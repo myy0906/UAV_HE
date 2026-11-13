@@ -1,0 +1,17 @@
+# Goal is expressed in project ENU frame.
+
+float32 goal_x
+float32 goal_y
+float32 goal_z
+
+# Obstacle clearance radius.
+float32 clearance_m
+
+---
+bool success
+
+float32[] waypoint_x
+float32[] waypoint_y
+float32[] waypoint_z
+
+string message

@@ -1,0 +1,12 @@
+0.001 [UNDERSTAND] Parsing candidate mission
+8.127 [WAIT_SYSTEM] Waiting for PX4 and executor
+8.129 [TAKEOFF] Validated takeoff to 2.00 m
+46.320 [LOCALIZE] Waiting for stable RGB-D red-house localization
+49.345 [COMPILE] Compiling complete outbound and return paths
+49.424 [OUTBOUND] Waypoint 2/9 [-0.031035054475069046, -0.004150060936808586, 2.0]
+49.527 [OUTBOUND] Waypoint 3/9 [1.2969824727624655, -0.5645750304684043, 2.0]
+59.059 [OUTBOUND] Waypoint 4/9 [2.625, -1.125, 2.0]
+68.369 [OUTBOUND] Waypoint 5/9 [4.5, -1.125, 2.0]
+80.408 [FAILED] GOTO timed out; safe hold activated.
+80.409 [RECOVERY_LAND] Landing in validated current-position column
+110.776 [RECOVERY_RESULT] Recovery landing completed

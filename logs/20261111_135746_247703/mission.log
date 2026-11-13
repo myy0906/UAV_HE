@@ -1,0 +1,55 @@
+[2026-11-11T13:57:46.248+08:00] ========================================
+[2026-11-11T13:57:46.248+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261111_135746_247703
+[2026-11-11T13:57:46.248+08:00] Natural-language instruction:
+[2026-11-11T13:57:46.248+08:00] 找到红色建筑，避开沿途障碍物飞过去，在红色建筑前面悬停一下，然后返航并降落
+[2026-11-11T13:57:46.249+08:00] Starting ROS 2 bag recording...
+[2026-11-11T13:57:47.058+08:00] ROS 2 bag recording started.
+[2026-11-11T13:57:47.059+08:00] Sending mission to Mission Manager...
+[2026-11-11T13:57:47.063+08:00] Mission accepted.
+[2026-11-11T13:57:47.063+08:00] [WAIT_SYSTEM] Waiting for PX4 and ROS system. (2%)
+[2026-11-11T13:57:47.064+08:00] [UNDERSTAND] Sending natural-language instruction to Qwen3-VL. (8%)
+[2026-11-11T13:57:50.303+08:00] [TAKEOFF] Taking off. (15%)
+[2026-11-11T13:58:22.046+08:00] [SEARCH_TARGET] Waiting for stable red_house visual localization. (25%)
+[2026-11-11T13:58:22.051+08:00] [PLAN_OUTBOUND] Planning obstacle-aware route to target. (35%)
+[2026-11-11T13:58:22.052+08:00] [OUTBOUND] Remaining distance 13.03 m (35%)
+[2026-11-11T13:58:27.466+08:00] [OUTBOUND] Remaining distance 12.72 m (36%)
+[2026-11-11T13:58:32.171+08:00] [OUTBOUND] Remaining distance 12.39 m (36%)
+[2026-11-11T13:58:35.709+08:00] [OUTBOUND] Remaining distance 12.29 m (36%)
+[2026-11-11T13:58:40.372+08:00] [OUTBOUND] Remaining distance 11.99 m (37%)
+[2026-11-11T13:58:45.888+08:00] [OUTBOUND] Remaining distance 11.33 m (38%)
+[2026-11-11T13:58:50.491+08:00] [OUTBOUND] Remaining distance 10.75 m (39%)
+[2026-11-11T13:58:53.912+08:00] [OUTBOUND] Remaining distance 10.38 m (40%)
+[2026-11-11T13:59:00.059+08:00] [OUTBOUND] Remaining distance 9.30 m (42%)
+[2026-11-11T13:59:01.475+08:00] [OUTBOUND] Remaining distance 9.13 m (42%)
+[2026-11-11T13:59:02.031+08:00] [OUTBOUND] Remaining distance 9.06 m (43%)
+[2026-11-11T13:59:02.379+08:00] [OUTBOUND] Remaining distance 9.00 m (43%)
+[2026-11-11T13:59:02.733+08:00] [OUTBOUND] Remaining distance 8.96 m (43%)
+[2026-11-11T13:59:04.646+08:00] [OUTBOUND] Remaining distance 8.81 m (43%)
+[2026-11-11T13:59:05.000+08:00] [OUTBOUND] Remaining distance 8.78 m (43%)
+[2026-11-11T13:59:05.352+08:00] [OUTBOUND] Remaining distance 8.76 m (43%)
+[2026-11-11T13:59:05.697+08:00] [OUTBOUND] Remaining distance 8.73 m (43%)
+[2026-11-11T13:59:06.048+08:00] [OUTBOUND] Remaining distance 8.71 m (43%)
+[2026-11-11T13:59:09.560+08:00] [OUTBOUND] Remaining distance 8.89 m (43%)
+[2026-11-11T13:59:09.914+08:00] [OUTBOUND] Remaining distance 8.99 m (43%)
+[2026-11-11T13:59:10.264+08:00] [OUTBOUND] Remaining distance 9.11 m (43%)
+[2026-11-11T13:59:10.615+08:00] [OUTBOUND] Remaining distance 9.21 m (42%)
+[2026-11-11T13:59:10.966+08:00] [OUTBOUND] Remaining distance 9.29 m (42%)
+[2026-11-11T13:59:11.318+08:00] [OUTBOUND] Remaining distance 9.33 m (42%)
+[2026-11-11T13:59:11.667+08:00] [OUTBOUND] Remaining distance 9.36 m (42%)
+[2026-11-11T13:59:12.018+08:00] [OUTBOUND] Remaining distance 9.36 m (42%)
+[2026-11-11T13:59:12.371+08:00] [OUTBOUND] Remaining distance 9.33 m (42%)
+[2026-11-11T13:59:12.422+08:00] [RECOVERY] Remaining distance 3.75 m (0%)
+[2026-11-11T13:59:12.774+08:00] [RECOVERY] Remaining distance 3.79 m (0%)
+[2026-11-11T13:59:13.124+08:00] [RECOVERY] Remaining distance 3.82 m (0%)
+[2026-11-11T13:59:13.475+08:00] [RECOVERY] Remaining distance 3.88 m (0%)
+[2026-11-11T13:59:19.493+08:00] [RECOVERY] Remaining distance 2.76 m (0%)
+[2026-11-11T13:59:24.114+08:00] [RECOVERY] Remaining distance 2.10 m (0%)
+[2026-11-11T13:59:29.633+08:00] [RECOVERY] Remaining distance 0.99 m (0%)
+[2026-11-11T13:59:58.591+08:00] Mission failed.
+[2026-11-11T13:59:58.591+08:00] Result: Repeated outbound path planning failure: A* could not find a safe path.
+[2026-11-11T13:59:58.591+08:00] Qwen parsed mission: {"target_label": "red_house", "return_home": true, "land_after": true, "obstacle_avoidance": true, "cruise_altitude": 2.0, "standoff_distance": 3.0, "hover_duration": 3.0}
+[2026-11-11T13:59:58.763+08:00] Stopping ROS 2 bag recording...
+[2026-11-11T13:59:58.982+08:00] ROS 2 bag recording stopped.
+[2026-11-11T13:59:58.982+08:00] Experiment saved.
+[2026-11-11T13:59:58.982+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261111_135746_247703
+[2026-11-11T13:59:58.982+08:00] Associated PX4 ULog: /home/uavhe2/PX4-Autopilot/build/px4_sitl_default/rootfs/log/2026-11-11/05_57_14.ulg

@@ -1,0 +1,57 @@
+{
+    "frame_id": "map",
+    "resolution": 0.25,
+
+    "bounds": {
+        "xmin": -25.0,
+        "xmax": 25.0,
+        "ymin": -25.0,
+        "ymax": 25.0
+    },
+
+    "geofence": {
+        "xmin": -24.0,
+        "xmax": 24.0,
+        "ymin": -24.0,
+        "ymax": 24.0,
+        "zmin": 1.0,
+        "zmax": 4.0
+    },
+
+    "limits": {
+        "clearance": 1.2,
+        "horizontal_speed_max": 1.0,
+        "vertical_speed_max": 1.0,
+        "waypoint_acceptance_radius": 0.3,
+        "standoff_min": 2.0,
+        "standoff_max": 6.0,
+        "hover_duration_max": 30.0
+    },
+
+    "obstacles": [
+        {
+            "name": "building_a",
+            "xmin": 4.0,
+            "xmax": 7.0,
+            "ymin": 0.7,
+            "ymax": 3.7,
+            "height": 4.0
+        },
+        {
+            "name": "building_b",
+            "xmin": 8.0,
+            "xmax": 11.0,
+            "ymin": -6.0,
+            "ymax": -3.0,
+            "height": 4.0
+        },
+        {
+            "name": "building_c",
+            "xmin": 10.0,
+            "xmax": 13.0,
+            "ymin": 4.0,
+            "ymax": 7.0,
+            "height": 4.0
+        }
+    ]
+}

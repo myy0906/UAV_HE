@@ -1,0 +1,29 @@
+[2026-11-11T17:18:33.881+08:00] ========================================
+[2026-11-11T17:18:33.881+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261111_171833_881074
+[2026-11-11T17:18:33.881+08:00] Natural-language instruction:
+[2026-11-11T17:18:33.881+08:00] 找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落
+[2026-11-11T17:18:33.890+08:00] Starting ROS 2 bag recording...
+[2026-11-11T17:18:34.692+08:00] ROS 2 bag recording started.
+[2026-11-11T17:18:34.693+08:00] Sending mission to Mission Manager...
+[2026-11-11T17:18:34.702+08:00] Mission accepted.
+[2026-11-11T17:18:34.702+08:00] [UNDERSTAND] Parsing candidate mission (2%)
+[2026-11-11T17:18:42.826+08:00] [WAIT_SYSTEM] Waiting for PX4 and executor (10%)
+[2026-11-11T17:18:42.827+08:00] [TAKEOFF] Validated takeoff to 2.00 m (15%)
+[2026-11-11T17:19:21.018+08:00] [LOCALIZE] Waiting for stable RGB-D red-house localization (25%)
+[2026-11-11T17:19:24.041+08:00] [COMPILE] Compiling complete outbound and return paths (32%)
+[2026-11-11T17:19:24.120+08:00] [OUTBOUND] Waypoint 2/9 [-0.031035054475069046, -0.004150060936808586, 2.0] (38%)
+[2026-11-11T17:19:24.229+08:00] [OUTBOUND] Waypoint 3/9 [1.2969824727624655, -0.5645750304684043, 2.0] (41%)
+[2026-11-11T17:19:33.758+08:00] [OUTBOUND] Waypoint 4/9 [2.625, -1.125, 2.0] (43%)
+[2026-11-11T17:19:43.066+08:00] [OUTBOUND] Waypoint 5/9 [4.5, -1.125, 2.0] (46%)
+[2026-11-11T17:19:55.109+08:00] [FAILED] GOTO timed out; safe hold activated. (0%)
+[2026-11-11T17:19:55.110+08:00] [RECOVERY_LAND] Landing in validated current-position column (95%)
+[2026-11-11T17:20:25.472+08:00] [RECOVERY_RESULT] Recovery landing completed (98%)
+[2026-11-11T17:20:25.494+08:00] Mission failed.
+[2026-11-11T17:20:25.494+08:00] Result: GOTO timed out; safe hold activated.
+[2026-11-11T17:20:25.494+08:00] Qwen parsed mission: {"mission_id": "20261111_171834_695723", "result_directory": "/home/uavhe2/px4_ros2_ws/results/20261111_171834_695723", "report": {"mission_id": "20261111_171834_695723", "instruction": "找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落", "semantic_validation_passed": true, "path_validation_passed": true, "flight_started": true, "success": false, "failure_category": "EXECUTION", "failure_reason": "GOTO timed out; safe hold activated.", "parser_mode": "llm", "inference_time_s": 8.11644773900116, "parse_validation_time_s": 8.124608623000313, "home": [-0.053658898919820786, 0.015758126974105835, 0.060311973094940186], "compile_time_s": 0.07605055500062008, "recovery": "Recovery landing completed"}}
+[2026-11-11T17:20:25.542+08:00] Stopping ROS 2 bag recording...
+[2026-11-11T17:20:40.542+08:00] rosbag did not stop after SIGINT; sending SIGTERM.
+[2026-11-11T17:20:40.552+08:00] ROS 2 bag recording stopped.
+[2026-11-11T17:20:40.553+08:00] Experiment saved.
+[2026-11-11T17:20:40.553+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261111_171833_881074
+[2026-11-11T17:20:40.553+08:00] Associated PX4 ULog: /home/uavhe2/PX4-Autopilot/build/px4_sitl_default/rootfs/log/2026-11-11/09_17_46.ulg

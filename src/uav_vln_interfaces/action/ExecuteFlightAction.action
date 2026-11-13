@@ -1,0 +1,80 @@
+# =============================================================================
+# ExecuteFlightAction
+#
+# UAV-VLN 系统统一飞行动作接口。
+#
+# 项目上层统一使用 ROS ENU：
+#   x: East  东，m
+#   y: North 北，m
+#   z: Up    上，m
+#
+# yaw:
+#   ENU 航向角，rad
+#   从 +x(East) 方向开始，逆时针为正
+#
+# PX4 内部使用 NED。
+# ENU <-> NED 转换只能由 uav_vln_px4 层完成。
+# =============================================================================
+
+uint8 TAKEOFF=0
+uint8 GOTO=1
+uint8 HOVER=2
+uint8 RETURN_HOME=3
+uint8 LAND=4
+uint8 ABORT=5
+
+# Requested action
+uint8 action_type
+
+# ENU target position.
+# TAKEOFF: z = takeoff altitude; x/y ignored.
+# GOTO: x/y/z = absolute local ENU target.
+# HOVER: x/y/z ignored; current position is held.
+# RETURN_HOME: x/y ignored; z>0 specifies return altitude,
+#              otherwise current altitude is maintained.
+# LAND: x/y/z ignored.
+# ABORT: x/y/z ignored; current position becomes safe-hold target.
+float32 x
+float32 y
+float32 z
+
+# ENU yaw [rad].
+# If NaN, keep current heading.
+float32 yaw
+
+# HOVER duration [s].
+# <= 0 uses executor default.
+float32 duration
+
+# Maximum action execution time [s].
+# <= 0 uses executor default.
+float32 timeout
+
+# Position acceptance radius [m].
+# <= 0 uses executor default.
+float32 acceptance_radius
+
+---
+# Result
+bool success
+string message
+
+# Final local ENU position
+float32 final_x
+float32 final_y
+float32 final_z
+
+---
+# Feedback
+string state
+
+# Current local ENU position
+float32 current_x
+float32 current_y
+float32 current_z
+
+# 3D distance from current position to active target [m]
+float32 distance_to_target
+
+bool armed
+bool offboard

@@ -1,0 +1,28 @@
+[2026-11-11T17:02:34.687+08:00] ========================================
+[2026-11-11T17:02:34.687+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261111_170234_678467
+[2026-11-11T17:02:34.687+08:00] Natural-language instruction:
+[2026-11-11T17:02:34.687+08:00] 找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落
+[2026-11-11T17:02:34.689+08:00] Starting ROS 2 bag recording...
+[2026-11-11T17:02:35.494+08:00] ROS 2 bag recording started.
+[2026-11-11T17:02:35.495+08:00] Sending mission to Mission Manager...
+[2026-11-11T17:02:35.508+08:00] Mission accepted.
+[2026-11-11T17:02:35.511+08:00] [UNDERSTAND] Parsing candidate mission (2%)
+[2026-11-11T17:02:44.514+08:00] [WAIT_SYSTEM] Waiting for PX4 and executor (10%)
+[2026-11-11T17:02:44.515+08:00] [TAKEOFF] Validated takeoff to 2.00 m (15%)
+[2026-11-11T17:03:21.919+08:00] [LOCALIZE] Waiting for stable RGB-D red-house localization (25%)
+[2026-11-11T17:03:25.039+08:00] [COMPILE] Compiling complete outbound and return paths (32%)
+[2026-11-11T17:03:25.101+08:00] [OUTBOUND] Waypoint 3/9 [1.3321551196277142, -0.5488146571442485, 2.0] (41%)
+[2026-11-11T17:03:31.984+08:00] [OUTBOUND] Waypoint 4/9 [2.625, -1.125, 2.0] (43%)
+[2026-11-11T17:03:38.265+08:00] [OUTBOUND] Waypoint 5/9 [4.5, -1.125, 2.0] (46%)
+[2026-11-11T17:03:41.214+08:00] [FAILED] Horizontal speed exceeded runtime safety threshold (0%)
+[2026-11-11T17:03:41.215+08:00] [RECOVERY_LAND] Landing in validated current-position column (95%)
+[2026-11-11T17:03:41.370+08:00] [RECOVERY_RESULT] Automatic recovery not completed: Horizontal speed exceeded runtime safety threshold. Check PX4 state; operator intervention required. (98%)
+[2026-11-11T17:03:41.379+08:00] Mission failed.
+[2026-11-11T17:03:41.379+08:00] Result: Horizontal speed exceeded runtime safety threshold
+[2026-11-11T17:03:41.379+08:00] Qwen parsed mission: {"mission_id": "20261111_170235_505185", "result_directory": "/home/uavhe2/px4_ros2_ws/results/20261111_170235_505185", "report": {"mission_id": "20261111_170235_505185", "instruction": "找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落", "semantic_validation_passed": true, "path_validation_passed": true, "flight_started": true, "success": false, "failure_category": "SAFETY", "failure_reason": "Horizontal speed exceeded runtime safety threshold", "parser_mode": "llm", "inference_time_s": 8.99083922600039, "parse_validation_time_s": 9.002997285000674, "home": [0.012309771031141281, 0.002093160292133689, -0.024767503142356873], "compile_time_s": 0.05077924600118422, "recovery": "Automatic recovery not completed: Horizontal speed exceeded runtime safety threshold. Check PX4 state; operator intervention required."}}
+[2026-11-11T17:03:41.505+08:00] Stopping ROS 2 bag recording...
+[2026-11-11T17:03:56.506+08:00] rosbag did not stop after SIGINT; sending SIGTERM.
+[2026-11-11T17:03:56.516+08:00] ROS 2 bag recording stopped.
+[2026-11-11T17:03:56.517+08:00] Experiment saved.
+[2026-11-11T17:03:56.517+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261111_170234_678467
+[2026-11-11T17:03:56.517+08:00] Associated PX4 ULog: /home/uavhe2/PX4-Autopilot/build/px4_sitl_default/rootfs/log/2026-11-11/08_56_57.ulg

@@ -1,0 +1,26 @@
+{
+  "mission_id": "20261111_210126_801277",
+  "instruction": "找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落",
+  "semantic_validation_passed": true,
+  "path_validation_passed": true,
+  "flight_started": true,
+  "success": true,
+  "failure_category": null,
+  "failure_reason": null,
+  "parser_mode": "llm",
+  "inference_time_s": 23.554937892000453,
+  "parse_validation_time_s": 23.565267891000985,
+  "home": [
+    -0.0023370084818452597,
+    0.010015182197093964,
+    -0.020899146795272827
+  ],
+  "compile_time_s": 0.050580705999891507,
+  "hover_position": [
+    11.055848121643066,
+    -0.8925408720970154,
+    2.0204575061798096
+  ],
+  "navigation_error_m": 0.1351746438825611,
+  "home_error_m": 0.1937214931724047
+}

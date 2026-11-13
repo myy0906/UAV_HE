@@ -1,0 +1,10 @@
+{
+  "accepted": true,
+  "semantic": true,
+  "geofence": true,
+  "obstacle_segments": true,
+  "target_guard": true,
+  "reachability": true,
+  "outbound_waypoints": 9,
+  "return_waypoints": 9
+}

@@ -1,0 +1,20 @@
+{
+  "mission_id": "20261111_170235_505185",
+  "instruction": "找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落",
+  "semantic_validation_passed": true,
+  "path_validation_passed": true,
+  "flight_started": true,
+  "success": false,
+  "failure_category": "SAFETY",
+  "failure_reason": "Horizontal speed exceeded runtime safety threshold",
+  "parser_mode": "llm",
+  "inference_time_s": 8.99083922600039,
+  "parse_validation_time_s": 9.002997285000674,
+  "home": [
+    0.012309771031141281,
+    0.002093160292133689,
+    -0.024767503142356873
+  ],
+  "compile_time_s": 0.05077924600118422,
+  "recovery": "Automatic recovery not completed: Horizontal speed exceeded runtime safety threshold. Check PX4 state; operator intervention required."
+}

@@ -1,0 +1,20 @@
+{
+  "mission_id": "20261111_171834_695723",
+  "instruction": "找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落",
+  "semantic_validation_passed": true,
+  "path_validation_passed": true,
+  "flight_started": true,
+  "success": false,
+  "failure_category": "EXECUTION",
+  "failure_reason": "GOTO timed out; safe hold activated.",
+  "parser_mode": "llm",
+  "inference_time_s": 8.11644773900116,
+  "parse_validation_time_s": 8.124608623000313,
+  "home": [
+    -0.053658898919820786,
+    0.015758126974105835,
+    0.060311973094940186
+  ],
+  "compile_time_s": 0.07605055500062008,
+  "recovery": "Recovery landing completed"
+}

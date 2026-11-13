@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "trajectory_samples": 2592,
+  "armed_valid_samples": 2334,
+  "inference_time_s": 23.554937892000453,
+  "compile_time_s": 0.050580705999891507,
+  "navigation_error_m": 0.1351746438825611,
+  "home_error_m": 0.1937214931724047,
+  "mission_wall_time_s": 259.1621914879979,
+  "flight_time_s": 233.30048936300227,
+  "actual_path_length_m": 27.002746065599265,
+  "max_horizontal_speed_mps": 0.7630188212862518,
+  "max_vertical_speed_mps": 0.7938950061798096,
+  "min_known_obstacle_distance_m": 1.7373355250587095,
+  "geofence_violation": false,
+  "cruise_altitude_violation": false,
+  "nominal_speed_violation": false,
+  "known_obstacle_margin_violation": false,
+  "known_obstacle_center_penetration": false
+}

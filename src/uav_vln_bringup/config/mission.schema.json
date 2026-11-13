@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UAV-VLN semantic mission protocol",
+  "type": "object",
+  "required": [
+    "frame_id",
+    "actions"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "frame_id": {
+      "const": "map_enu"
+    },
+    "actions": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 5,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "action_type": {
+                "const": "takeoff"
+              },
+              "altitude": {
+                "type": "number",
+                "minimum": 1.0,
+                "maximum": 4.0
+              },
+              "timeout": {
+                "type": "number",
+                "minimum": 20.0,
+                "maximum": 90.0
+              }
+            },
+            "required": [
+              "action_type",
+              "altitude",
+              "timeout"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "action_type": {
+                "const": "goto"
+              },
+              "target_semantics": {
+                "const": "red_house"
+              },
+              "standoff_distance": {
+                "type": "number",
+                "minimum": 2.0,
+                "maximum": 6.0
+              },
+              "velocity_limit": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 1.0
+              },
+              "timeout": {
+                "type": "number",
+                "minimum": 15.0,
+                "maximum": 240.0
+              }
+            },
+            "required": [
+              "action_type",
+              "target_semantics",
+              "standoff_distance",
+              "velocity_limit",
+              "timeout"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "action_type": {
+                "const": "hover"
+              },
+              "duration": {
+                "type": "number",
+                "minimum": 1.0,
+                "maximum": 30.0
+              }
+            },
+            "required": [
+              "action_type",
+              "duration"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "action_type": {
+                "const": "return_home"
+              },
+              "velocity_limit": {
+                "type": "number",
+                "minimum": 0.1,
+                "maximum": 1.0
+              },
+              "timeout": {
+                "type": "number",
+                "minimum": 15.0,
+                "maximum": 240.0
+              }
+            },
+            "required": [
+              "action_type",
+              "velocity_limit",
+              "timeout"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "action_type": {
+                "const": "land"
+              },
+              "timeout": {
+                "type": "number",
+                "minimum": 20.0,
+                "maximum": 90.0
+              }
+            },
+            "required": [
+              "action_type",
+              "timeout"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  }
+}

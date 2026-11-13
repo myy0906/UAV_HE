@@ -1,0 +1,150 @@
+{
+  "frame_id": "map_enu",
+  "target_source": "RGB-D",
+  "target_surface": [
+    13.853412628173828,
+    -1.8433247804641724,
+    1.6271631717681885
+  ],
+  "target_guard": {
+    "surface_xy": [
+      13.853412628173828,
+      -1.8433247804641724
+    ],
+    "normal_xy": [
+      0.9911579226219424,
+      -0.13268749912390299
+    ],
+    "minimum_distance": 1.2
+  },
+  "approach_point": [
+    11.08428367746003,
+    -0.6892342925392867,
+    2.0
+  ],
+  "approach_offset_deg": -15,
+  "rejected_approaches": [
+    {
+      "offset_deg": 0,
+      "reason": "Waypoint too close to known obstacle: building_b"
+    }
+  ],
+  "home_air": [
+    0.0329204723238945,
+    -0.004425253253430128,
+    2.0
+  ],
+  "yaw": -0.3948793530724309,
+  "outbound_waypoints": [
+    [
+      0.037063609808683395,
+      0.006286423187702894,
+      1.9084272384643555
+    ],
+    [
+      0.037063609808683395,
+      0.006286423187702894,
+      2.0
+    ],
+    [
+      2.625,
+      -1.125,
+      2.0
+    ],
+    [
+      5.125,
+      -1.125,
+      2.0
+    ],
+    [
+      7.625,
+      -1.125,
+      2.0
+    ],
+    [
+      10.125,
+      -1.125,
+      2.0
+    ],
+    [
+      11.08428367746003,
+      -0.6892342925392867,
+      2.0
+    ]
+  ],
+  "return_waypoints": [
+    [
+      11.08428367746003,
+      -0.6892342925392867,
+      2.0
+    ],
+    [
+      9.104641838730014,
+      -0.9071171462696433,
+      2.0
+    ],
+    [
+      7.125,
+      -1.125,
+      2.0
+    ],
+    [
+      4.625,
+      -1.125,
+      2.0
+    ],
+    [
+      2.125,
+      -1.125,
+      2.0
+    ],
+    [
+      0.0329204723238945,
+      -0.004425253253430128,
+      2.0
+    ]
+  ],
+  "lengths_m": {
+    "outbound": 11.4695915671385,
+    "return": 11.35647765496843
+  },
+  "estimated_times_s": {
+    "outbound": 34.11598594523083,
+    "return": 31.92746275828072
+  },
+  "compile_time_s": 0.0610431420027453,
+  "clearance_m": 1.2,
+  "planning_tracking_margin_m": 0.45,
+  "mission_id": "20261111_193107_136843",
+  "semantic_plan": {
+    "frame_id": "map_enu",
+    "actions": [
+      {
+        "action_type": "takeoff",
+        "altitude": 2.0,
+        "timeout": 45.0
+      },
+      {
+        "action_type": "goto",
+        "target_semantics": "red_house",
+        "standoff_distance": 3.0,
+        "velocity_limit": 1.0,
+        "timeout": 120.0
+      },
+      {
+        "action_type": "hover",
+        "duration": 3.0
+      },
+      {
+        "action_type": "return_home",
+        "velocity_limit": 1.0,
+        "timeout": 120.0
+      },
+      {
+        "action_type": "land",
+        "timeout": 45.0
+      }
+    ]
+  },
+  "fallback_action": "cancel_and_land_if_safe"
+}

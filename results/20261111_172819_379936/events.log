@@ -1,0 +1,19 @@
+0.011 [UNDERSTAND] Parsing candidate mission
+7.110 [WAIT_SYSTEM] Waiting for PX4 and executor
+7.110 [TAKEOFF] Validated takeoff to 2.00 m
+44.737 [LOCALIZE] Waiting for stable RGB-D red-house localization
+47.765 [COMPILE] Compiling complete outbound and return paths
+47.842 [OUTBOUND] Waypoint 2/7 [0.009731306694447994, 0.04636073857545853, 2.0]
+47.950 [OUTBOUND] Waypoint 3/7 [2.625, -1.125, 2.0]
+66.075 [OUTBOUND] Waypoint 4/7 [5.125, -1.125, 2.0]
+83.311 [OUTBOUND] Waypoint 5/7 [7.625, -1.125, 2.0]
+100.076 [OUTBOUND] Waypoint 6/7 [10.125, -1.125, 2.0]
+116.632 [OUTBOUND] Waypoint 7/7 [11.123476110599444, -0.7041957961812297, 2.0]
+124.325 [HOVER] Observing for 3.0 seconds
+127.423 [RETURN] Waypoint 2/6 [9.124238055299722, -0.9145978980906149, 2.0]
+140.182 [RETURN] Waypoint 3/6 [7.125, -1.125, 2.0]
+154.175 [RETURN] Waypoint 4/6 [4.625, -1.125, 2.0]
+171.174 [RETURN] Waypoint 5/6 [2.125, -1.125, 2.0]
+187.666 [RETURN] Waypoint 6/6 [0.0092848539352417, 0.024025773629546165, 2.0]
+203.182 [LAND] Landing at home
+232.092 [COMPLETED] Mission completed

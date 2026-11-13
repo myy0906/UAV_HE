@@ -1,0 +1,6 @@
+string instruction
+---
+bool success
+uav_vln_interfaces/MissionCommand command
+string normalized_json
+string message

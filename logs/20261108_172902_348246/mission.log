@@ -1,0 +1,16 @@
+[2026-11-08T17:29:02.348+08:00] ========================================
+[2026-11-08T17:29:02.348+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261108_172902_348246
+[2026-11-08T17:29:02.348+08:00] Natural-language instruction:
+[2026-11-08T17:29:02.348+08:00] 找到红色建筑，避开沿途障碍物飞过去，在红色建筑前面悬停一下，然后返航并降落
+[2026-11-08T17:29:02.349+08:00] Starting ROS 2 bag recording...
+[2026-11-08T17:29:03.154+08:00] ROS 2 bag recording started.
+[2026-11-08T17:29:03.154+08:00] Sending mission to Mission Manager...
+[2026-11-08T17:29:03.162+08:00] Mission accepted.
+[2026-11-08T17:29:03.162+08:00] [WAIT_SYSTEM] Waiting for PX4 and ROS system. (2%)
+[2026-11-08T17:29:18.176+08:00] Mission failed.
+[2026-11-08T17:29:18.176+08:00] Result: System readiness timeout.
+[2026-11-08T17:29:18.232+08:00] Stopping ROS 2 bag recording...
+[2026-11-08T17:29:18.499+08:00] ROS 2 bag recording stopped.
+[2026-11-08T17:29:18.499+08:00] Experiment saved.
+[2026-11-08T17:29:18.499+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261108_172902_348246
+[2026-11-08T17:29:18.499+08:00] Associated PX4 ULog: /home/uavhe2/PX4-Autopilot/build/px4_sitl_default/rootfs/log/2026-11-08/09_28_59.ulg

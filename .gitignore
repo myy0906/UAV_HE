@@ -1,0 +1,40 @@
+# ROS 2
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Model weights
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Temporary files
+.cache/
+.DS_Store
+*.swp
+*~
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*token*.json
+
+# Large binary logs
+*.ulg
+*.bag
+*.db3
+*.mcap

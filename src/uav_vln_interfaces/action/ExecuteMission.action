@@ -1,0 +1,12 @@
+# Natural-language mission instruction
+string instruction
+
+---
+bool success
+string message
+string parsed_json
+
+---
+string stage
+string detail
+float32 progress

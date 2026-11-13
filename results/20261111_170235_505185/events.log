@@ -1,0 +1,11 @@
+0.002 [UNDERSTAND] Parsing candidate mission
+9.006 [WAIT_SYSTEM] Waiting for PX4 and executor
+9.008 [TAKEOFF] Validated takeoff to 2.00 m
+46.413 [LOCALIZE] Waiting for stable RGB-D red-house localization
+49.532 [COMPILE] Compiling complete outbound and return paths
+49.595 [OUTBOUND] Waypoint 3/9 [1.3321551196277142, -0.5488146571442485, 2.0]
+56.477 [OUTBOUND] Waypoint 4/9 [2.625, -1.125, 2.0]
+62.758 [OUTBOUND] Waypoint 5/9 [4.5, -1.125, 2.0]
+65.708 [FAILED] Horizontal speed exceeded runtime safety threshold
+65.708 [RECOVERY_LAND] Landing in validated current-position column
+65.864 [RECOVERY_RESULT] Automatic recovery not completed: Horizontal speed exceeded runtime safety threshold. Check PX4 state; operator intervention required.

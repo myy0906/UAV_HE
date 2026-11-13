@@ -1,0 +1,26 @@
+{
+  "experiment_id": "20261111_193106_311383",
+  "start_time": "2026-11-11T19:31:06.311667+08:00",
+  "end_time": "2026-11-11T19:34:55.402221+08:00",
+  "instruction": "找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落",
+  "status": "SUCCEEDED",
+  "success": true,
+  "result_message": "Mission completed",
+  "parsed_json": "{\"mission_id\": \"20261111_193107_136843\", \"result_directory\": \"/home/uavhe2/px4_ros2_ws/results/20261111_193107_136843\", \"report\": {\"mission_id\": \"20261111_193107_136843\", \"instruction\": \"找到红房子，起飞到2米高度，飞到距离3米的位置，悬停3秒，然后返航降落\", \"semantic_validation_passed\": true, \"path_validation_passed\": true, \"flight_started\": true, \"success\": true, \"failure_category\": null, \"failure_reason\": null, \"parser_mode\": \"llm\", \"inference_time_s\": 10.599949120001838, \"parse_validation_time_s\": 10.614245168999332, \"home\": [0.0329204723238945, -0.004425253253430128, 0.016167744994163513], \"compile_time_s\": 0.0610431420027453, \"hover_position\": [10.998261451721191, -0.7242569923400879, 2.0386204719543457], \"navigation_error_m\": 0.10058803943002974, \"home_error_m\": 0.17924178548587025}}",
+  "rosbag_directory": "/home/uavhe2/px4_ros2_ws/logs/20261111_193106_311383/rosbag",
+  "rosbag_topics": [
+    "/uav/vehicle_state",
+    "/uav/perception/target_detection",
+    "/uav/mapping/semantic_target",
+    "/uav/navigation/occupancy_grid",
+    "/uav/navigation/planned_path",
+    "/fmu/in/offboard_control_mode",
+    "/fmu/in/trajectory_setpoint",
+    "/fmu/in/vehicle_command",
+    "/fmu/out/vehicle_local_position_v1",
+    "/fmu/out/vehicle_status_v1",
+    "/fmu/out/vehicle_command_ack"
+  ],
+  "px4_ulog_path": "/home/uavhe2/PX4-Autopilot/build/px4_sitl_default/rootfs/log/2026-11-11/11_30_07.ulg",
+  "result_directory": "/home/uavhe2/px4_ros2_ws/results/20261111_193107_136843"
+}

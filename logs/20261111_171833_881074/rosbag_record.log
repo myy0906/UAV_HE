@@ -1,0 +1,24 @@
+[WARN] [ros2bag]: Positional "topics" argument deprecated. Please use optional "--topics" argument instead.
+[INFO] [1794388714.382065612] [rosbag2_recorder]: Press SPACE for pausing/resuming
+[INFO] [1794388714.382072965] [rosbag2_recorder]: Event publisher thread: Started
+[INFO] [1794388714.391571970] [rosbag2_recorder]: Starting recording to '/home/uavhe2/px4_ros2_ws/logs/20261111_171833_881074/rosbag'
+[INFO] [1794388714.393286143] [rosbag2_recorder]: Listening for topics...
+[INFO] [1794388714.393323636] [rosbag2_recorder]: Recording...
+[INFO] [1794388714.393372684] [rosbag2_recorder]: Topics discovery started.
+[INFO] [1794388715.161336119] [rosbag2_recorder]: Subscribed to topic '/fmu/in/offboard_control_mode'
+[INFO] [1794388715.163729649] [rosbag2_recorder]: Subscribed to topic '/fmu/in/trajectory_setpoint'
+[INFO] [1794388715.166250326] [rosbag2_recorder]: Subscribed to topic '/fmu/in/vehicle_command'
+[INFO] [1794388715.172868959] [rosbag2_recorder]: Subscribed to topic '/uav/navigation/occupancy_grid'
+[INFO] [1794388715.179555370] [rosbag2_recorder]: Subscribed to topic '/fmu/out/vehicle_command_ack'
+[INFO] [1794388715.181953567] [rosbag2_recorder]: Subscribed to topic '/fmu/out/vehicle_local_position_v1'
+[INFO] [1794388715.196234969] [rosbag2_recorder]: Subscribed to topic '/uav/mapping/semantic_target'
+[INFO] [1794388715.198865931] [rosbag2_recorder]: Subscribed to topic '/uav/perception/target_detection'
+[INFO] [1794388715.201510863] [rosbag2_recorder]: Subscribed to topic '/uav/vehicle_state'
+[INFO] [1794388715.207109034] [rosbag2_recorder]: Subscribed to topic '/fmu/out/vehicle_status_v1'
+[INFO] [1794388715.210099444] [rosbag2_recorder]: Subscribed to topic '/uav/navigation/planned_path'
+[INFO] [1794388715.210148253] [rosbag2_recorder]: All requested topics are subscribed. Stopping discovery...
+[INFO] [1794388715.210159844] [rosbag2_recorder]: Topics discovery stopped.
+[INFO] [1794388825.542335091] [rosbag2_recorder]: Pausing recording.
+[INFO] [1794388825.542433343] [rosbag2_cpp]: Writing remaining messages from cache to the bag. It may take a while
+[INFO] [1794388825.552203909] [rosbag2_recorder]: Recording stopped
+[INFO] [1794388825.576634501] [rosbag2_recorder]: Event publisher thread: Exited

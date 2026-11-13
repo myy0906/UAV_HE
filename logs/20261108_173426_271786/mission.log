@@ -1,0 +1,88 @@
+[2026-11-08T17:34:26.272+08:00] ========================================
+[2026-11-08T17:34:26.272+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261108_173426_271786
+[2026-11-08T17:34:26.272+08:00] Natural-language instruction:
+[2026-11-08T17:34:26.272+08:00] 找到红色建筑，避开沿途障碍物飞过去，在红色建筑前面悬停一下，然后返航并降落
+[2026-11-08T17:34:26.272+08:00] Starting ROS 2 bag recording...
+[2026-11-08T17:34:27.084+08:00] ROS 2 bag recording started.
+[2026-11-08T17:34:27.085+08:00] Sending mission to Mission Manager...
+[2026-11-08T17:34:27.089+08:00] Mission accepted.
+[2026-11-08T17:34:27.089+08:00] [WAIT_SYSTEM] Waiting for PX4 and ROS system. (2%)
+[2026-11-08T17:34:27.090+08:00] [UNDERSTAND] Sending natural-language instruction to Qwen3-VL. (8%)
+[2026-11-08T17:34:30.329+08:00] [TAKEOFF] Taking off. (15%)
+[2026-11-08T17:35:01.346+08:00] [SEARCH_TARGET] Waiting for stable red_house visual localization. (25%)
+[2026-11-08T17:35:01.350+08:00] [PLAN_OUTBOUND] Planning obstacle-aware route to target. (35%)
+[2026-11-08T17:35:01.359+08:00] [OUTBOUND] Remaining distance 12.99 m (35%)
+[2026-11-08T17:35:06.300+08:00] [OUTBOUND] Remaining distance 12.69 m (36%)
+[2026-11-08T17:35:10.447+08:00] [OUTBOUND] Remaining distance 12.37 m (36%)
+[2026-11-08T17:35:14.066+08:00] [OUTBOUND] Remaining distance 12.16 m (37%)
+[2026-11-08T17:35:17.498+08:00] [OUTBOUND] Remaining distance 11.96 m (37%)
+[2026-11-08T17:35:22.024+08:00] [OUTBOUND] Remaining distance 11.72 m (37%)
+[2026-11-08T17:35:26.431+08:00] [OUTBOUND] Remaining distance 11.42 m (38%)
+[2026-11-08T17:35:31.768+08:00] [OUTBOUND] Remaining distance 10.96 m (39%)
+[2026-11-08T17:35:35.208+08:00] [OUTBOUND] Remaining distance 10.71 m (39%)
+[2026-11-08T17:35:39.717+08:00] [OUTBOUND] Remaining distance 10.29 m (40%)
+[2026-11-08T17:35:43.061+08:00] [OUTBOUND] Remaining distance 9.95 m (41%)
+[2026-11-08T17:35:47.586+08:00] [OUTBOUND] Remaining distance 9.38 m (42%)
+[2026-11-08T17:35:51.030+08:00] [OUTBOUND] Remaining distance 8.91 m (43%)
+[2026-11-08T17:35:54.345+08:00] [OUTBOUND] Remaining distance 8.40 m (44%)
+[2026-11-08T17:35:55.682+08:00] [OUTBOUND] Remaining distance 8.32 m (44%)
+[2026-11-08T17:35:56.238+08:00] [OUTBOUND] Remaining distance 8.30 m (44%)
+[2026-11-08T17:35:57.397+08:00] [OUTBOUND] Remaining distance 8.27 m (44%)
+[2026-11-08T17:35:57.952+08:00] [OUTBOUND] Remaining distance 8.27 m (44%)
+[2026-11-08T17:35:58.515+08:00] [OUTBOUND] Remaining distance 8.27 m (44%)
+[2026-11-08T17:35:59.070+08:00] [OUTBOUND] Remaining distance 8.28 m (44%)
+[2026-11-08T17:35:59.624+08:00] [OUTBOUND] Remaining distance 8.30 m (44%)
+[2026-11-08T17:36:00.177+08:00] [OUTBOUND] Remaining distance 8.31 m (44%)
+[2026-11-08T17:36:18.072+08:00] [OUTBOUND] Remaining distance 8.12 m (44%)
+[2026-11-08T17:36:23.096+08:00] [OUTBOUND] Remaining distance 7.35 m (46%)
+[2026-11-08T17:36:26.030+08:00] [OUTBOUND] Remaining distance 6.84 m (47%)
+[2026-11-08T17:36:29.675+08:00] [OUTBOUND] Remaining distance 6.23 m (48%)
+[2026-11-08T17:36:33.074+08:00] [OUTBOUND] Remaining distance 5.63 m (49%)
+[2026-11-08T17:36:36.649+08:00] [OUTBOUND] Remaining distance 4.99 m (50%)
+[2026-11-08T17:36:40.556+08:00] [OUTBOUND] Remaining distance 4.28 m (52%)
+[2026-11-08T17:36:43.556+08:00] [OUTBOUND] Remaining distance 3.78 m (53%)
+[2026-11-08T17:36:47.496+08:00] [OUTBOUND] Remaining distance 3.08 m (54%)
+[2026-11-08T17:36:50.396+08:00] [OUTBOUND] Remaining distance 2.60 m (55%)
+[2026-11-08T17:36:53.500+08:00] [OUTBOUND] Remaining distance 2.15 m (56%)
+[2026-11-08T17:36:56.440+08:00] [OUTBOUND] Remaining distance 1.74 m (57%)
+[2026-11-08T17:37:00.276+08:00] [OUTBOUND] Remaining distance 1.23 m (58%)
+[2026-11-08T17:37:05.823+08:00] [HOVER] Target reached. Hovering. (65%)
+[2026-11-08T17:37:08.883+08:00] [PLAN_RETURN] Planning obstacle-aware route back to home. (72%)
+[2026-11-08T17:37:08.884+08:00] [RETURN] Remaining distance 12.93 m (72%)
+[2026-11-08T17:37:14.087+08:00] [RETURN] Remaining distance 12.46 m (73%)
+[2026-11-08T17:37:18.614+08:00] [RETURN] Remaining distance 11.88 m (74%)
+[2026-11-08T17:37:22.163+08:00] [RETURN] Remaining distance 11.35 m (74%)
+[2026-11-08T17:37:25.591+08:00] [RETURN] Remaining distance 10.86 m (75%)
+[2026-11-08T17:37:29.493+08:00] [RETURN] Remaining distance 10.35 m (76%)
+[2026-11-08T17:37:32.993+08:00] [RETURN] Remaining distance 9.96 m (77%)
+[2026-11-08T17:37:36.819+08:00] [RETURN] Remaining distance 9.60 m (77%)
+[2026-11-08T17:37:40.361+08:00] [RETURN] Remaining distance 9.25 m (78%)
+[2026-11-08T17:37:43.994+08:00] [RETURN] Remaining distance 8.83 m (78%)
+[2026-11-08T17:37:48.537+08:00] [RETURN] Remaining distance 8.34 m (79%)
+[2026-11-08T17:37:51.532+08:00] [RETURN] Remaining distance 8.00 m (80%)
+[2026-11-08T17:37:56.044+08:00] [RETURN] Remaining distance 8.24 m (79%)
+[2026-11-08T17:37:56.395+08:00] [RETURN] Remaining distance 8.30 m (79%)
+[2026-11-08T17:37:56.746+08:00] [RETURN] Remaining distance 8.37 m (79%)
+[2026-11-08T17:38:02.161+08:00] [RETURN] Remaining distance 8.31 m (79%)
+[2026-11-08T17:38:06.975+08:00] [RETURN] Remaining distance 7.78 m (80%)
+[2026-11-08T17:38:10.479+08:00] [RETURN] Remaining distance 7.24 m (81%)
+[2026-11-08T17:38:15.322+08:00] [RETURN] Remaining distance 6.21 m (82%)
+[2026-11-08T17:38:19.447+08:00] [RETURN] Remaining distance 5.46 m (84%)
+[2026-11-08T17:38:22.344+08:00] [RETURN] Remaining distance 5.07 m (84%)
+[2026-11-08T17:38:26.386+08:00] [RETURN] Remaining distance 4.56 m (85%)
+[2026-11-08T17:38:30.399+08:00] [RETURN] Remaining distance 3.99 m (86%)
+[2026-11-08T17:38:33.834+08:00] [RETURN] Remaining distance 3.53 m (87%)
+[2026-11-08T17:38:38.250+08:00] [RETURN] Remaining distance 2.91 m (88%)
+[2026-11-08T17:38:42.821+08:00] [RETURN] Remaining distance 2.25 m (89%)
+[2026-11-08T17:38:45.714+08:00] [RETURN] Remaining distance 1.89 m (89%)
+[2026-11-08T17:38:51.032+08:00] [RETURN] Remaining distance 0.99 m (90%)
+[2026-11-08T17:38:55.242+08:00] [LAND] Landing. (95%)
+[2026-11-08T17:39:24.100+08:00] [COMPLETED] Mission completed. (100%)
+[2026-11-08T17:39:24.101+08:00] Mission completed successfully.
+[2026-11-08T17:39:24.101+08:00] Result: Mission completed successfully.
+[2026-11-08T17:39:24.101+08:00] Qwen parsed mission: {"target_label": "red_house", "return_home": true, "land_after": true, "obstacle_avoidance": true, "cruise_altitude": 2.0, "standoff_distance": 3.0, "hover_duration": 3.0}
+[2026-11-08T17:39:24.138+08:00] Stopping ROS 2 bag recording...
+[2026-11-08T17:39:24.406+08:00] ROS 2 bag recording stopped.
+[2026-11-08T17:39:24.407+08:00] Experiment saved.
+[2026-11-08T17:39:24.407+08:00] Experiment directory: /home/uavhe2/px4_ros2_ws/logs/20261108_173426_271786
+[2026-11-08T17:39:24.407+08:00] Associated PX4 ULog: /home/uavhe2/PX4-Autopilot/build/px4_sitl_default/rootfs/log/2026-11-08/09_28_59.ulg

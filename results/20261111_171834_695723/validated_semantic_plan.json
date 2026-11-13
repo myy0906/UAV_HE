@@ -1,0 +1,30 @@
+{
+  "frame_id": "map_enu",
+  "actions": [
+    {
+      "action_type": "takeoff",
+      "altitude": 2.0,
+      "timeout": 45.0
+    },
+    {
+      "action_type": "goto",
+      "target_semantics": "red_house",
+      "standoff_distance": 3.0,
+      "velocity_limit": 1.0,
+      "timeout": 120.0
+    },
+    {
+      "action_type": "hover",
+      "duration": 3.0
+    },
+    {
+      "action_type": "return_home",
+      "velocity_limit": 1.0,
+      "timeout": 120.0
+    },
+    {
+      "action_type": "land",
+      "timeout": 45.0
+    }
+  ]
+}
